@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education Website</title>
+    <!-- <link rel="stylesheet" href="https://unicons.iconscout.com/release-pro/v4.0.0/css/solid.css">
+    iconscout cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <!-- font-awesome-icon -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- google-fonts ^-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/Contact.css">
+</head>
+<body>
+    <nav>
+        <div class="container nav_container">
+            <a href="index.html">
+                <h4>GyanGunSaagar</h4>
+            </a>
+            <ul class="nav__menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="courses.html">courses</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+            <button id="open-menu-btn"><i class="fas fa-bars"></i></button>
+            <button id="close-menu-btn"><i class="fas fa-times"></i></button>
+        </div>
+    </nav>
+    <!-- End of nav -->
+
+    <!-- contact section starts  -->
+
+    <div class="container contact">
+
+
+        <section class="contacts">
+
+            <h1>Contact Us</h1>
+            <div class="row ">
+
+                <form action="" method="post" data-aos="flip-right">
+                    <input type="text" name="name" required maxlength="50" placeholder="enter your name" class="box">
+                    <input type="email" name="email" required maxlength="50" placeholder="enter your email" class="box">
+                    <input type="number" name="number" required maxlength="10" min="0" max="9999999999"
+                        placeholder="enter your number" class="box">
+                    <textarea name="message" class="box" required maxlength="1000" cols="30" rows="10"></textarea>
+                    <input type="submit" value="send message" name="send" class="btn">
+                </form>
+
+            </div>
+
+        </section>
+
+    </div>
+
+    <!-- contact section ends -->
+
+    <!-- Footer section -->
+    <footer>
+        <div class="container footer__container">
+            <div class="footer__1">
+                <a href="index.html" class="footer__logo">
+                    <h4>GyanGunSaagar</h4>
+                </a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus eaque atque volupts.</p>
+            </div>
+
+            <div class="footer__2">
+                <h4>Permalinks</h4>
+                <ul class="permalinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                    <li><a href="Cources.html">Cources</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__3">
+                <h4>Privacy</h4>
+                <ul class="Privacy">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__4">
+                <h4>Contact Us</h4>
+                <div>
+                    <p>6277 222 731</p>
+                    <p>GyanGunSaagar@gmail.com</p>
+                </div>
+                <ul class="Footer__socials">
+                    <li><a href="#"> <i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"> <i class="fab fa-linkedin"></i></i></a></li>
+                    <li><a href="#"> <i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"> <i class="fab fa-facebook"></i></a></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="footer__copyright">
+            <small>Copyright &copy; GyanGunSaagar.com</small>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+.contact {
+  background: url("../images/header.svg") no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-position-y: 30px;
+}
+.contacts h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.contact .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.contact .row form {
+  flex: 1 1 40rem;
+  padding: 2rem;
+  background-color: var(--light-bg);
+  border-radius: 0.5rem;
+  backdrop-filter: blur(0.4rem);
+}
+
+.contact .row form h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: var(--white);
+  padding-bottom: 1rem;
+}
+
+.contact .row form .box {
+  width: 100%;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+  background-color: var(--light-black);
+  padding: 1.4rem;
+  font-size: 1.8rem;
+  color: var(--white);
+  text-transform: none;
+}
+
+.contact .row form .box::placeholder {
+  color: var(--light-white);
+}
+
+.contact .row form textarea {
+  height: 15rem;
+  resize: none;
+}
+.contact .row form .btn {
+  text-align: center;
+  margin-left: 43%;
+}
